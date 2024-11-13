@@ -11,6 +11,13 @@ const globalErrorHandler_1 = __importDefault(require("./app/middleware/globalErr
 const app = (0, express_1.default)();
 app.use((0, cors_1.default)());
 app.use(express_1.default.json());
+app.get("/", (req, res) => {
+    res.status(200).json({
+        success: true,
+        mesage: "Libray is connected successfully!",
+        status: 200,
+    });
+});
 // all routes
 app.use("/api", routes_1.allRoutes);
 app.use(globalErrorHandler_1.default);
