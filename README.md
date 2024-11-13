@@ -15,7 +15,6 @@
 
 ### Packages
 - `dotenv`: Manage environment variables
-- `bcrypt`: Secure password hashing
 - `cors`: Handle Cross-Origin Resource Sharing
 - `typescript`: TypeScript for static typing in the project
 - `ts-node`: TypeScript execution for development
@@ -68,8 +67,11 @@ Add, view, update, and delete books.
 Track available and total copies of each book.
 Member Management
 
-### Members.
+### Members .
+Add member 
 View member details.
+upadte member
+delete member
 
 ### Borrowing Records
 
