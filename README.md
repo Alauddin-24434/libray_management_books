@@ -17,7 +17,9 @@
 - `dotenv`: Manage environment variables
 - `bcrypt`: Secure password hashing
 - `cors`: Handle Cross-Origin Resource Sharing
-
+- `typescript`: TypeScript for static typing in the project
+- `ts-node`: TypeScript execution for development
+- `@types/*`: TypeScript types for the required packages (like Express)
 ---
 
 ## Setup Instructions:
