@@ -13,7 +13,7 @@ app.use(express.json());
 app.get("/", (req: Request, res: Response) => {
   res.status(200).json({
     success: true,
-    mesage: "Libray boo is connected successfully!",
+    mesage: "Libray api is connected successfully!",
     status: 200,
   });
 });
